@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: black;
+    opacity: .85;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+   
+}
+#header-nav {
+    display: inline;
+}
+
+#header-links li {
+    display: inline;
+    margin-right;: 10opx;
+    padding-bottom: 100px;
+    width: 25px;
+    text-align: left;
+    list-style-type:none;
+    margin: 0;
+    padding-left: 100px;
+}
+
+.experience {
+    background-color: turquoise;
+    text-align: left;
+    margin: 25px 800px 25px 0px;
+    font-weight: bold;
+}
+
+.portfolio {
+    background-color: peachpuff;
+    text-align: left;
+    margin: 25px 800px 25px 0px;
+    font-weight: bold;
+}
+
+.about {
+    background-color: lightskyblue;
+    text-align: left;
+    margin: 25px 800px 25px 0px;
+    font-weight: bold;
+}
+
+.references {
+    background-color: lightpink;
+    text-align: left;
+    margin: 25px 800px 25px 0px;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: violet;
+    text-align: left;
+    margin: 25px 800px 25px 0px;
+    font-weight: bold;
+}
