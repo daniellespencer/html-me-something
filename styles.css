@@ -1,22 +1,40 @@
 body {
     font-family: 'Poppins', sans-serif;
+    max-width: 1920px;
+    max-height: 1080px;
 }
 
 header {
     background-color: black;
     opacity: .85;
+    margin-left: 500px;
+    height: 100x;
+}
+
+footer {
+    font-size: 8px;
+    padding-left: 5px;
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
+    text-align: right;
+    font-family:'Comfortaa', cursive;
+    padding-right: 12px;
+    padding-bottom: -150px;
 }
 
 h2 {
-    font-size: 17px;
+    font-size: 15px;
+    text-align: right;
+    margin-top: 0px;
+    padding-top: -100px;
+    padding-right: 12px;
+    padding-bottom: -100px;
+    font-family:'Comfortaa', cursive;
 }
 
 h1, h2 {
-    text-align: center;
     color: white;
 }
 
@@ -47,6 +65,7 @@ nav {
     text-align: left;
     margin: 25px 800px 25px 0px;
     font-weight: bold;
+    padding: 10px 10px;
 }
 
 .portfolio {
@@ -54,6 +73,7 @@ nav {
     text-align: left;
     margin: 25px 800px 25px 0px;
     font-weight: bold;
+    padding: 10px 10px;
 }
 
 .about {
@@ -61,6 +81,7 @@ nav {
     text-align: left;
     margin: 25px 800px 25px 0px;
     font-weight: bold;
+    padding: 10px 10px;
 }
 
 .references {
@@ -68,6 +89,7 @@ nav {
     text-align: left;
     margin: 25px 800px 25px 0px;
     font-weight: bold;
+    padding: 10px 10px;
 }
 
 .contact {
@@ -75,4 +97,64 @@ nav {
     text-align: left;
     margin: 25px 800px 25px 0px;
     font-weight: bold;
+    padding: 10px 10px;
 }
+
+.experience-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+    background-color: ;
+    padding: 4px;
+  }
+
+  .experience-grid-container > div {
+    
+    text-align: left;
+    padding: 20px 20px;
+    font-size: 12px;
+    line-height: normal;
+  }
+
+.about-p-styles > p {
+    font-size: 12px;
+  }
+
+.references-p-styles > p {
+    font-size: 12px;
+}
+
+.portfolio-p-styles > p, article {
+    font-size: 12px;
+}
+
+.contact-p-styles > p, a {
+    font-size: 12px;
+}
+  
+  h4 {
+      font-size: 15px;
+  }
+
+  #about-p-container {
+      margin-right: 800px;
+      margin-left: 85px;
+      margin-top: -85px;
+      margin-bottom: 75px;
+  }
+
+  #references-p-container {
+      margin-right: 800px;
+      font-size: 12px;
+      margin-bottom: 50px;
+  }
+
+  #portfolio-p-container {
+    margin-right: 800px;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+  img {
+      border-radius: 50%;
+  }
