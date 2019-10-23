@@ -249,20 +249,20 @@ nav {
       }
     
       #about-p-container {
-          margin-right: 800px;
+          margin-right: 350px;
           margin-left: 85px;
           margin-top: -85px;
           margin-bottom: 75px;
       }
     
       #references-p-container {
-          margin-right: 800px;
+          margin-right: 350px;
           font-size: 12px;
           margin-bottom: 50px;
       }
     
       #portfolio-p-container {
-        margin-right: 800px;
+        margin-right: 350px;
         font-size: 12px;
         margin-bottom: 50px;
     }
